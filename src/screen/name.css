@@ -18,12 +18,14 @@
 .name h1{
     font-size:15vh;
     font-weight: 200;
+    color: white;
     opacity: 0;
     animation:fadeup 3s 1s 1 forwards;
 
 }
 .name h2{
     font-size:5vh;
+    color: white;
     font-weight: 200;
     opacity: 0;
     animation:fadeup 3s 2s 1 forwards;

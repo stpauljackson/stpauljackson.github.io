@@ -6,6 +6,9 @@
     margin-left: 10vw;
     margin-right: 10vw;
     text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .contact h1{
     font-size:5vw;
@@ -14,12 +17,10 @@
 .contacttext{
     font-size:25px;
     position:relative;
-    top: 14vh;
 }
 .or{
     font-size:40px;
     position: relative;
-    top:7vh
 }
 .contact img{
     height: 50px;
@@ -27,8 +28,7 @@
 }
 .links{
     display: flex;
-    position:absolute;
-    bottom:10vh;
+    position:relative;
     margin:auto;
     width: 100%;
     justify-content: space-evenly;
