@@ -1,5 +1,6 @@
 import './project.css'
 
+
 export default function Project(props){
     const {index} = props;
     const list = [
@@ -26,6 +27,7 @@ export default function Project(props){
         <div className="projects">
         {(index>=0&&index<=2)?
             <div key={index} className="projectcontainer">
+                
                 <h1 id="projectindex">0{index+1}</h1>
                 <h1 id="projectname">{list[index].name}</h1>
                 <p id="projectdescription">{list[index].description}</p>

@@ -20,8 +20,8 @@ export default function Skill(props)
         {(props.index >=3)?
         <div className="skill">
             <div className="title">
-                <h1>Skills</h1>
-                <p>FullStack Development &bull; Software Engineering &bull; Machine Learning</p>
+                <h1 style={{fontSize:"5vw"}}>Skills</h1>
+                <p style={{fontSize:"2vw"}}>FullStack Development &bull; Software Engineering &bull; Machine Learning</p>
             </div>
             <div className="skillcontainer">
                 <div className="skillgroup g1">

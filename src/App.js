@@ -6,6 +6,7 @@ import Name from './screen/name.js'
 import About from './screen/about.js'
 import Skill from './screen/skill.js'
 import Contact from './screen/contact.js'
+import Image from './screen/image';
 
 export default function App() {
   const prevScrollY = useRef(0);
@@ -26,7 +27,7 @@ export default function App() {
       }
 
       prevScrollY.current = currentScrollY;
-      setindex(Math.floor(currentScrollY/vh)-2)
+      setindex(Math.floor(currentScrollY/(vh+vh/2))-1)
     };
 
     window.addEventListener("scroll", handleScroll, { passive: true});
@@ -41,8 +42,8 @@ export default function App() {
     <div className="App">
       <Name/>
       <About position={currentScrollY}/>
-      <Project  index={index}/>
-      <div className="filler"></div>
+      <Project  index={index} />
+      <Image position={currentScrollY}/>
       <Skill index={index}/>
       <Contact />
     </div>      

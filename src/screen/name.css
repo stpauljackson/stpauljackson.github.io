@@ -20,7 +20,7 @@
     font-weight: 200;
     color: white;
     opacity: 0;
-    animation:fadeup 3s 1s 1 forwards;
+    animation:fadeup 2s 0.5s 1 forwards;
 
 }
 .name h2{
@@ -28,6 +28,6 @@
     color: white;
     font-weight: 200;
     opacity: 0;
-    animation:fadeup 3s 2s 1 forwards;
+    animation:fadeup 2s 1s 1 forwards;
 
 }
