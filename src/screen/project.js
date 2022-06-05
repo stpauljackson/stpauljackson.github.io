@@ -5,16 +5,16 @@ export default function Project(props){
     const {index} = props;
     const list = [
         {
-            name:"Portfolio",
-            tech:"[React js]",
-            description:"A portfolio website to showcase my skills.",
-            platform:"Web"
+            name:"HouseHunt",
+            tech:"[ReactNative, Node js, MongoDB]",
+            description:"Cross platform mobile App to list Property for rent.",
+            platform:"Android & ios"
         },
         {
-            name:"News Website",
+            name:"News App",
             tech:"[React js, Node js, NewsAPI]",
-            description:"A News website to provide latest news feeds.",
-            platform:"Web"
+            description:"A News App to provide latest news feeds.",
+            platform:"Android, ios & Web"
         },
         {
             name:"Fifto",

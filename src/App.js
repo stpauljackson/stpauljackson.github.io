@@ -7,6 +7,7 @@ import About from './screen/about.js'
 import Skill from './screen/skill.js'
 import Contact from './screen/contact.js'
 import Image from './screen/image';
+import Certification from './screen/certification'
 
 export default function App() {
   const prevScrollY = useRef(0);
@@ -45,6 +46,7 @@ export default function App() {
       <Project  index={index} />
       <Image position={currentScrollY}/>
       <Skill index={index}/>
+      <Certification />
       <Contact />
     </div>      
   )

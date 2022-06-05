@@ -6,7 +6,7 @@ export default function Name() {
         <div className="name">
             {/* <img style={{position: 'absolute',top:"100px",left:"100px",width:"100px"}} src={img} alt=""/> */}
             <div className="namecontainer">
-            <h1 style={{fontSize:"10vw"}}>Sushant Kumar</h1>
+            <h1 style={{fontSize:"9vw"}}>Sushant Kumar</h1>
             <h2 style={{fontSize:"3vw"}}>Software Engineer</h2>
             </div>
         </div>

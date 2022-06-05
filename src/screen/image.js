@@ -1,5 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import Phone from '../assets/phone.png'
+import NewsApp from '../assets/NewsApp.png'
+import fifto from '../assets/fifto.png'
 import './image.css'
 
 export default function Image() {
@@ -22,7 +24,6 @@ export default function Image() {
 
       prevScrollY.current = currentScrollY;
       setindex(Math.floor(currentScrollY / vh) - 2)
-      console.log(currentScrollY)
     };
 
     window.addEventListener("scroll", handleScroll, { passive: true });
@@ -87,10 +88,10 @@ export default function Image() {
       <img style={img2} id='phone2' src={Phone} />
       <img style={img3} id='phone1' src={Phone} />
       <img style={img4} id='phone2' src={Phone} />
-      <img style={img5} id='phone1' src={Phone} />
-      <img style={img6} id='phone2' src={Phone} />
-      <img style={img7} id='phone1' src={Phone} />
-      <img style={img8} id='phone2' src={Phone} />
+      <img style={img5} id='phone1' src={NewsApp} />
+      <img style={img6} id='phone2' src={NewsApp} />
+      <img style={img7} id='phone1' src={NewsApp} />
+      <img style={img8} id='phone2' src={NewsApp} />
       <img style={img9} id='phone1' src={Phone} />
       <img style={img10} id='phone2' src={Phone} />
       <img style={img11} id='phone1' src={Phone} />
