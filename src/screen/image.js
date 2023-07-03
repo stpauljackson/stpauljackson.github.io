@@ -84,18 +84,18 @@ export default function Image() {
   }
   return (
     <div className="filler">
-      <img style={img1} id='phone1' src={Phone} />
-      <img style={img2} id='phone2' src={Phone} />
-      <img style={img3} id='phone1' src={Phone} />
-      <img style={img4} id='phone2' src={Phone} />
-      <img style={img5} id='phone1' src={NewsApp} />
-      <img style={img6} id='phone2' src={NewsApp} />
-      <img style={img7} id='phone1' src={NewsApp} />
-      <img style={img8} id='phone2' src={NewsApp} />
-      <img style={img9} id='phone1' src={Phone} />
-      <img style={img10} id='phone2' src={Phone} />
-      <img style={img11} id='phone1' src={Phone} />
-      <img style={img12} id='phone2' src={Phone} />
+      <img alt='' style={img1} id='phone1' src={Phone} />
+      <img alt='' style={img2} id='phone2' src={Phone} />
+      <img alt='' style={img3} id='phone1' src={Phone} />
+      <img alt='' style={img4} id='phone2' src={Phone} />
+      <img alt='' style={img5} id='phone1' src={NewsApp} />
+      <img alt='' style={img6} id='phone2' src={NewsApp} />
+      <img alt='' style={img7} id='phone1' src={NewsApp} />
+      <img alt='' style={img8} id='phone2' src={NewsApp} />
+      <img alt='' style={img9} id='phone1' src={fifto} />
+      <img alt='' style={img10} id='phone2' src={fifto} />
+      <img alt='' style={img11} id='phone1' src={fifto} />
+      <img alt='' style={img12} id='phone2' src={fifto} />
     </div>
   )
 }
